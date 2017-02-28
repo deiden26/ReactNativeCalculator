@@ -86,6 +86,8 @@ class ReactCalculator extends Component {
                         isNaN(displayText)
                     ) {
                         displayText = 'ERROR';
+                    } else {
+                        displayText = displayText.toString();
                     }
                 }
                 catch (error) {
